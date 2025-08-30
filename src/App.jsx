@@ -1,13 +1,21 @@
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './commp/navBar';
 
 function App() {
-  return (
-    <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-      <p className="text-lg mt-5 p-2">jffffffffffffffffffffffffffffffff
-        fjfffffffffffffffffffffffffjjjjjjjjjjjjjjj
-      </p>
-    </h1>
+
+
+    return (
+    <div dir='trl' className="w-full h-auto relative top-0 left-0 ">
+      <BrowserRouter >
+       <NavBar />
+         <Routes>
+    
+         </Routes>
+     
+      </BrowserRouter>
+      
+      
+    </div>
   )
 }
 
