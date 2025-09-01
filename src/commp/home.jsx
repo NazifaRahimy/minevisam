@@ -85,44 +85,44 @@ const HomePage = () => {
             </div> 
            
         </div>
-        <div >
-            <div ></div>
-            <div > 
+         <div className="w-full mt-40 px-4">
+            <div className="h-px w-full my-8 bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
+            <div className="w-[170px] py-4 mt-5 gap-2 rounded-md  bg-gray-100 mx-auto flex flex-col justify-center items-center text-xl font-bold shadow"> 
                 <span>تکنولوژی</span>
-                <span></span>
+                <span className="w-[60px] rounded-full h-[3px] bg-cyan-600"></span>
             </div>
-            <div dir="rtl">
-                <div >
-                    <img src="https://minevisam.ir/wp-content/uploads/2025/06/s0.webp" />
-                    <div >
+            <div dir="rtl" className="w-full h-auto grid grid-cols-1 md:grid-cols-3  mt-5 gap-5 pb-">
+                <div className=" w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointertransition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2025/06/s0.webp" alt="" className="w-full rounded-md h-[250px]" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
                         <p>نویسنده: معین روزبه</p>
                         <p>تاریخ: 9 ژوئن 2025</p>
                     </div>
-                    <div >
-                        <h1 >حالت اضطراری (Emergency SOS) را چطور فعال کنیم؟ (اندروید و آیفون)</h1>
-                        <p>در لحظات اضطراری، حتی چند ثانیه هم می‌توانند سرنوشت‌ساز باشند. خوشبختانه، از اقتصادی گرفته تا ....</p>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">حالت اضطراری (Emergency SOS) را چطور فعال کنیم؟ (اندروید و آیفون)</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">در لحظات اضطراری، حتی چند ثانیه هم می‌توانند سرنوشت‌ساز باشند. خوشبختانه، از اقتصادی گرفته تا ....</p>
                     </div>
                 </div>
-                <div  >
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
                     <img src="https://minevisam.ir/wp-content/uploads/2022/07/%D9%85%D8%B9%D9%86%DB%8C-%D9%82%D9%84%D8%A8-%D8%B5%D9%88%D8%B1%D8%AA%DB%8C.jpg" className="w-full rounded-md h-[250px]" alt="" />
-                    <div >
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
                         <p>نویسنده: پناه رمضانی</p>
                         <p>تاریخ: 15 جولای 2025</p>
                     </div>
-                    <div >
-                        <h1 >معنی قلب صورتی 💖 (انواع مختلف ایموجی قلب صورتی چه مفهوم پنهانی دارد)</h1>
-                        <p >امروز برای شما افراد علاقه مند به معنی ایموجی ها، معنی قلب صورتی را بیان کرده ایم. لازم به ذکر است در ....</p>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">معنی قلب صورتی 💖 (انواع مختلف ایموجی قلب صورتی چه مفهوم پنهانی دارد)</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">امروز برای شما افراد علاقه مند به معنی ایموجی ها، معنی قلب صورتی را بیان کرده ایم. لازم به ذکر است در ....</p>
                     </div>
                 </div>
-                <div  >
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
                     <img src="https://minevisam.ir/wp-content/uploads/2021/03/%D9%82%D9%84%D8%A8.jpg" className="w-full rounded-md h-[250px]" alt="" />
-                    <div >
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
                         <p>نویسنده: مهدیه حسینی ها</p>
                         <p>تاریخ: 16 جولای 2025</p>
                     </div>
-                    <div >
-                        <h1 >معنی قلب بنفش در استیکر ها چیست؟ 💜 یعنی چه؟</h1>
-                        <p >برای اینکه بدانید معنی قلب بنفش چیه یا قلب بنفش نشانه چیست این مطلب را دنبال کنید.</p>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">معنی قلب بنفش در استیکر ها چیست؟ 💜 یعنی چه؟</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">برای اینکه بدانید معنی قلب بنفش چیه یا قلب بنفش نشانه چیست این مطلب را دنبال کنید.</p>
                     </div>
                 </div>
             </div>
