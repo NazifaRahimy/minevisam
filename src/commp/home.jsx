@@ -133,6 +133,41 @@ const HomePage = () => {
                 <span>سبک زندگی</span>
                 <span className="w-[60px] rounded-full h-[3px] bg-cyan-600"></span>
             </div>
+              <div dir="rtl" className="w-full h-auto grid grid-cols-1 md:grid-cols-3  mt-5 gap-5 pb-">
+                <div className="w-full md:w-full lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/05/birthday.jpg" alt="" className="w-full rounded-md h-[250px]" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده:  شیما فلاح</p>
+                        <p>تاریخ: 24 جولای 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">بهترین متن‌های دعوت تولد برای دختر و پسر (لاکچری و رسمی)</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">در انتخاب یک متن دعوت تولد، مهم است که احساسات شما و سبک شخصیتی که می‌خواهید در مراسم تولدتان .....</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/06/baby-01-min.jpg" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده:  شیما فلاح</p>
+                        <p>تاریخ: 15 جولای 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold "> جدیدترین اسم های پسر ترکی همراه با معنی فارسی (1404)</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">انتخاب نام برای فرزند یکی از اولین و مهم‌ترین تصمیماتی است که والدین باید بگیرند، زیرا نام تأثیر....</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/06/kurdi.jpg" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده: محمد روزبه</p>
+                        <p>تاریخ: 23 جولای 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">اسم عشقمو به زبان کردی چی سیو کنم؟</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">کلمات خاص به زبان کردی که خطاب به عشق می‌گویند به همراه ترجمه‌ی آنها به فارسی آمده است.همیشه دقت ک....</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
       );
