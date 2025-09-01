@@ -175,7 +175,41 @@ const HomePage = () => {
                 <span>سرگرمی</span>
                 <span className="w-[60px] rounded-full h-[3px] bg-cyan-600"></span>
             </div>
-          
+            <div dir="rtl" className="w-full h-auto grid grid-cols-1  md:grid-cols-3  mt-5 gap-5 pb-">
+                <div className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/05/%DA%A9%D9%BE%D8%B4%D9%86-%D8%B7%D9%86%D8%B2-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%DB%8C%D9%86%D8%B3%D8%AA%D8%A7%DA%AF%D8%B1%D8%A7%D9%85.jpg" alt="" className="w-full rounded-md h-[250px]" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده:  پریسا احمدی</p>
+                        <p>تاریخ: 27 جولای 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">کپشن در مورد رفاقت برای اینستاگرام کوتاه و سنگین</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">برای خواندن زیباترین و خاص ترین کپشن های رفاقت برای اینستاگرام این مقاله را با دقت بخوانید تا با بهتری...</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/06/zzzz.jpg" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده:  پریسا احمدی</p>
+                        <p>تاریخ: 27 جولای 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">کپشن طنز برای اینستاگرام، جالب و خنده دار</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">بهترین و خنده دار ترین کپشن های طنز را برای اینستاگرام را می توانید در ادامه این مطلب بخوانید....</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-full lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/06/01ef2e3c3b9b78a411973d3475471057c5e1d761.jpg" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده: آرزو افشار</p>
+                        <p>تاریخ: 23 جولای 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">شعر تسلیت از حافظ (مجموعه اشعار حافظ درباره مرگ و تسلیت)</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">در اینجا چند شعر معروف از حافظ با موضوع تسلیت و مرگ آورده شده است: غزل 78: هرگزم نقش تو…</p>
+                    </div>
+                </div>
+            </div>
             
         </div>
     </div>
