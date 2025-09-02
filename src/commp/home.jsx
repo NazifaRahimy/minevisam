@@ -218,7 +218,41 @@ const HomePage = () => {
                 <span>گردشگری</span>
                 <span className="w-[60px] rounded-full h-[3px] bg-cyan-600"></span>
             </div>
-            
+            <div dir="rtl" className="w-full h-auto grid grid-cols-1 md:grid-cols-3  mt-5 gap-5 pb-">
+                <div className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2025/05/caption.webp" alt="" className="w-full rounded-md h-[250px]" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده: محمد روزبه</p>
+                        <p>تاریخ: 19 می 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">سفرهای خارجی در خرداد ماه | بررسی کامل مقصدها، هزینه‌ها و انتخاب‌های مناسب برای همه</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">خرداد ماه یکی از محبوب‌ترین زمان‌ها برای سفر خارجی بین ایرانیان است. هوای گرم اما نه طاقت‌فرسا، پایان ....</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/07/texas.jpg" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده:  آرزو افشار</p>
+                        <p>تاریخ: 12 فوریه 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">چرا تگزاس خطرناک است ؟ (همه نکته ها)</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">تگزاس، مانند بسیاری از مناطق دیگر، می‌تواند خطرات خاصی داشته باشد. این خطرات ممکن است ناشی ...</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/06/azaz02-min.jpg" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده: پناه رمضانی</p>
+                        <p>تاریخ: 12 فوریه 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">10 بهترین کشور برای سفر خانوادگی از نظر امنیت، قیمت و جذابیت</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">سفر خانوادگی می‌تواند تجربه‌ای فوق‌العاده و خاطره‌انگیز باشد، به شرطی که مقصدی مناسب از نظر امنیت، قیم....</p>
+                    </div>
+                </div>
+            </div>
             
         </div>
     </div>
