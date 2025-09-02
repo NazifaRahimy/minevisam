@@ -261,7 +261,41 @@ const HomePage = () => {
                 <span>مد و زیبایی</span>
                 <span className="w-[60px] rounded-full h-[3px] bg-cyan-600"></span>
             </div>
-            
+            <div dir="rtl" className="w-full h-auto grid grid-cols-1 md:grid-cols-3  mt-5 gap-5 pb-">
+                <div className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2021/06/Nail-page.jpg" alt="" className="w-full rounded-md h-[250px]" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده:  زینب محمدی</p>
+                        <p>تاریخ: 14 جولای 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">اسم برای پیج ناخن کاری | اسم های جذاب برای پیج ناخن در اینستاگرام</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">اگر در انتخاب اسم برای پیج ناخن کاری خود دچار مشکل شده اید، با ما همراه باشید. در این مقاله ایده اسم برا...</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-full lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2025/05/image.png" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده:  محمد روزبه</p>
+                        <p>تاریخ: 18 می 2025</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold ">بهترین مارک محصولات مراقبت از پوست کره‌ای</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">با بهترین برندهای محصولات مراقبت از پوست کره‌ای آشنا شوید؛ راز زیبایی کره‌ای‌ها با ترکیبات سنتی، گیاهی..</p>
+                    </div>
+                </div>
+                <div  className="w-full md:w-auto lg:w-[350px] h-auto shadow-md rounded-md cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <img src="https://minevisam.ir/wp-content/uploads/2024/07/il_fullxfull.5380247310_b2e0.jpg" className="w-full rounded-md h-[250px]" alt="" />
+                    <div className="flex justify-between px-3 pb-3 pt-5 text-[14px] border-b">
+                        <p>نویسنده: سارا محمدی</p>
+                        <p>تاریخ: 1 جولای 2024</p>
+                    </div>
+                    <div className="mt-5 px-3 flex flex-wrap-reverse flex-col pb-10 ">
+                        <h1 className="text-blue-700 transition-colors duration-[0.5s] hover:text-cyan-600 cursor-pointer text-lg font-bold "> متن برای استوری کاشت ناخن در اینستاگرام برای جذب مشتری</h1>
+                        <p className="pt-3 text-[15px] text-gray-500">جذب مشتری برای کاشت ناخن در اینستاگرام: استراتژی‌ها و متن‌های جذاب اینستاگرام به عنوان یکی از محبوب‌ترین ...</p>
+                    </div>
+                </div>
+            </div>
             
         </div>
     </div>
