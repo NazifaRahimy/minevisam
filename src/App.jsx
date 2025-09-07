@@ -3,7 +3,7 @@ import NavBar from './commp/navBar';
 import HomePage from './commp/home';
 import Technology from './commp/technology';
 import Lifestyle from './commp/lifestyle';
-
+import Entertainment from './commp/entertainment';
 function App() {
 
 
@@ -15,7 +15,7 @@ function App() {
             <Route path="/"  element={<HomePage />}/>
             <Route path="/technology"  element={<Technology />}/>
             <Route path="/lifestyle"  element={<Lifestyle/>}/>
-
+            <Route path='/entertainment' element={<Entertainment/>} />
          </Routes>
      
       </BrowserRouter>
