@@ -9,6 +9,9 @@ const Entertainment = () => {
                     <span>سرگرمی</span>
                     <span className="w-[60px] rounded-full h-[3px] bg-cyan-600"></span>
                 </div>
+                 <div className="w-[650px] h-10 py-5 rounded-md px-4 border my-10 bg-white shadow-[0px_0px_3px_rgba(0,0,0,0.2)]  mx-auto  flex items-center justify-center">
+                    <p className="text-[18px]"></p>
+                </div>
             </div>
         </div>
      );
