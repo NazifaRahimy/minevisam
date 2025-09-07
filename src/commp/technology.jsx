@@ -9,7 +9,7 @@ const Technology = () => {
                     <span>تکنولوژی</span>
                     <span className="w-[60px] rounded-full h-[3px] bg-cyan-600"></span>
                 </div>
-                <div className="w-[650px] py-5 rounded-md px-4 border my-10 bg-white shadow-[0px_0px_3px_rgba(0,0,0,0.2)]  mx-auto  flex items-center justify-center">
+                <div className="w-full md:w-[650px] py-5 rounded-md px-4 border my-10 bg-white shadow-[0px_0px_3px_rgba(0,0,0,0.2)]  mx-auto  flex flex-wrap items-center justify-center">
                     <p>تکنولوژی اختراعات اینترنت تبلت و موبایل گوناگون کامپیوتر و نرم افزار سخت افزار ترفندستان</p>
                 </div>
                      <div dir="rtl" className="w-full h-auto grid grid-cols-1 md:grid-cols-3  mt-5 gap-5 pb-">
