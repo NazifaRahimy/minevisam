@@ -4,6 +4,8 @@ import HomePage from './commp/home';
 import Technology from './commp/technology';
 import Lifestyle from './commp/lifestyle';
 import Entertainment from './commp/entertainment';
+import Tourism from './commp/tourism';
+
 function App() {
 
 
@@ -16,6 +18,7 @@ function App() {
             <Route path="/technology"  element={<Technology />}/>
             <Route path="/lifestyle"  element={<Lifestyle/>}/>
             <Route path='/entertainment' element={<Entertainment/>} />
+            <Route path='/tourism' element={<Tourism/>} />
          </Routes>
      
       </BrowserRouter>
