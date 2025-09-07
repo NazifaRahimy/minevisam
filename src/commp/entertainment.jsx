@@ -1,6 +1,10 @@
+import PageTitle from "./pageTitle";
+
 const Entertainment = () => {
     return ( 
-dddd
+        <div>
+            <PageTitle title="بایگانی های سرگرمی"/>
+        </div>
      );
 }
  
