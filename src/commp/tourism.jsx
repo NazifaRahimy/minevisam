@@ -1,6 +1,10 @@
+import PageTitle from "./pageTitle";
+
 const Tourism = () => {
     return ( 
-       <h1>jjjj</h1>
+       <div>
+             < PageTitle title="بایگانی های گردشگری"/>
+       </div>
      );
 }
  
